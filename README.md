@@ -1,28 +1,39 @@
-# Aya Elsayed — Editorial Portfolio
+# Aya Elsayed — Financial Journalism Portfolio
 
-A responsive personal portfolio for Cairo-based financial journalist and senior English economic analyst Aya Elsayed.
+Responsive, lightweight portfolio website for Aya Elsayed, a Cairo-based financial journalist and senior English economic analyst.
 
-## Website
+## What is included
 
-Once GitHub Pages is enabled, the expected address is:
+- Readable white-and-blue professional theme, using the operating system's sans-serif font stack.
+- Accessible, responsive homepage with contact actions near the top.
+- Professional profile and **Egypt + GCC regional perspective**.
+- Filterable and searchable selection of **FirstBank** banking coverage and **Amwal Al Ghad English** stories.
+- Each story has a **local summary** page and a **direct link** to the original published article.
+- A portable CSV catalogue, plus machine-readable JSON metadata.
+- Career history and academic background.
+
+## Public website
+
+If GitHub Pages has been enabled, the project URL is:
+
 https://ayaseldein.github.io/aya-salah.github.io/
 
-## Publishing
+To publish: **Settings → Pages → Build and deployment → Source → GitHub Actions**. Every push to `main` triggers the workflow in `.github/workflows/deploy.yml`.
 
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment → Source**, select **GitHub Actions**.
-3. Open **Actions** to check the **Deploy portfolio to GitHub Pages** workflow. Every new push to `main` triggers a deployment.
+## Archival limits
+
+The repository contains **locally preserved source metadata and independently written summaries**; it does not include complete copies of publisher articles or their images. See `archive/README.md` for instructions on adding original drafts or republication-authorised complete texts to create true full-text backups.
 
 ## Editing
 
-All site markup, styling, writing samples, filters and lightweight JavaScript are self-contained in `index.html`; no build or package install is needed.
+- `index.html`: all landing-page content, styles, interactions.
+- `story.html`: local article detail page.
+- `archive/articles.json`: source data for article cards and detail pages.
+- `archive/article-index.csv`: independent downloadable archive catalogue.
+- `archive/README.md`: archive and authorship notes.
 
-The selected stories are linked to their original publisher pages or topical archive pages. Verify the byline and attribution when adding new articles. Some featured pieces are co-bylined.
+No build tools, npm packages or external font libraries are required. Online GitHub Pages deployment needs GitHub Actions enabled.
 
-## Content sources
+## Editorial credits
 
-Professional profile, roles and education are based on the supplied CV. Selected published article links were checked against Amwal Al Ghad's public pages and archives.
-
-## Design
-
-Editorial typography, dark forest/navy hero, warm ivory sections, copper accents, topic-filtered stories, accessible navigation and mobile-first layouts.
+Verified Amwal Al Ghad bylines are described as such. FirstBank stories are labelled publication coverage rather than asserting individually verified authorship.
