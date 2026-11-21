@@ -1,0 +1,212 @@
+{
+  "description": "Locally stored independent summaries and publication metadata for Aya Elsayed's portfolio. Not complete publisher article backups; original URLs are preserved per article.",
+  "updated": "2026-11-21",
+  "articles": [
+    {
+      "slug": "arab-top-200-concentration",
+      "title": "Arab banking giants: 12 banks account for 50.46% of top 200 assets",
+      "outlet": "FirstBank",
+      "date": "November 2026",
+      "region": "GCC & MENA",
+      "category": "gcc",
+      "format": "Banking analysis",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13572",
+      "summary": "A close look at concentration in the Arab banking market. Twelve institutions together held USD 2.86tn in assets at the end of June 2026, accounting for just over half the assets represented in FirstBank’s ranking of the 200 largest operating banks in the region.",
+      "detail": [
+        "This piece offers a useful entry point for readers interested in banking-sector structure, scale and cross-market competition, particularly the weight of large Gulf banking groups in the region.",
+        "The on-site version preserves a research synopsis and the original publication reference. It is not a copy of the full publisher article."
+      ]
+    },
+    {
+      "slug": "qnb-fab-leadership-race",
+      "title": "Arab banking leadership race tightens as FAB closes in on QNB",
+      "outlet": "FirstBank",
+      "date": "November 2026",
+      "region": "Qatar & UAE",
+      "category": "gcc",
+      "format": "Banking analysis",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13569",
+      "summary": "An examination of the narrowing asset gap between Qatar National Bank and First Abu Dhabi Bank following their third-quarter 2026 results. The comparison frames a regional leadership contest through the financial positions of two large Gulf banking groups.",
+      "detail": [
+        "The subject highlights how rankings can change as balance sheets expand at different rates, and why differences in reporting periods and measurement matter when interpreting the relative size of institutions.",
+        "This independently written synopsis is retained in the portfolio alongside a direct link to the article."
+      ]
+    },
+    {
+      "slug": "uae-largest-banks",
+      "title": "FirstBank tracks UAE’s 10 largest banks in the Arab top 100",
+      "outlet": "FirstBank",
+      "date": "October 2026",
+      "region": "UAE",
+      "category": "gcc",
+      "format": "Ranking",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13416",
+      "summary": "FirstBank’s ranking of the Arab world’s 100 largest banks at the end of June 2026 included 17 UAE institutions. This article focuses on the ten largest UAE banks in that regional comparison and their place within the broader Arab banking landscape.",
+      "detail": [
+        "The article is relevant to coverage of the UAE’s banking depth and comparative balance-sheet scale across markets.",
+        "This page is a local reference summary; for tables, exact calculations and the complete text, consult the original publisher link."
+      ]
+    },
+    {
+      "slug": "anb-qib-top-20",
+      "title": "The Big Numbers Race: ANB, QIB compete for the Arab top 20",
+      "outlet": "FirstBank",
+      "date": "October 2026",
+      "region": "Saudi Arabia & Qatar",
+      "category": "gcc",
+      "format": "Competitive analysis",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13421",
+      "summary": "A focused comparison between Saudi Arabia’s Arab National Bank and Qatar Islamic Bank near the threshold of the top twenty Arab banks. FirstBank’s first-half 2026 data put ANB twentieth and QIB twenty-first.",
+      "detail": [
+        "The ranking contest illustrates the small shifts in asset size that can alter positions in regional banking league tables.",
+        "Only the synopsis and source metadata are archived here, not the full publisher-owned story."
+      ]
+    },
+    {
+      "slug": "arab-top-30-lenders",
+      "title": "The Big Numbers Race: Four banks battle for Arab top 30 lenders spot",
+      "outlet": "FirstBank",
+      "date": "October 2026",
+      "region": "GCC",
+      "category": "gcc",
+      "format": "Competitive analysis",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13458",
+      "summary": "An analysis of competition around thirtieth place among the region’s largest banks by lending. The comparison includes Emirates Islamic and Commercial Bank of Qatar, examining how differences in loan growth may affect the ranking.",
+      "detail": [
+        "This kind of banking comparison goes beyond a static league table by asking what changes in credit portfolios could mean for positions at the end of the year.",
+        "The portfolio stores a concise reference note and the original link; it does not preserve the article’s complete wording."
+      ]
+    },
+    {
+      "slug": "firstbank-top-200",
+      "title": "FirstBank unveils first-ever ranking of 200 largest banks operating in Arab region",
+      "outlet": "FirstBank",
+      "date": "November 2026",
+      "region": "Arab region",
+      "category": "gcc",
+      "format": "Regional ranking",
+      "credit": "FirstBank publication coverage — individual byline not verified",
+      "url": "https://en.firstbankeg.com/13551",
+      "summary": "The inaugural ranking compares banks operating across Arab markets on the basis of assets expressed in US dollars. It covers local banks, foreign banks and international subsidiaries, offering a wider picture of the regional banking system.",
+      "detail": [
+        "QNB Group led the ranking at the end of June 2026, with First Abu Dhabi Bank close behind. The UAE had the highest number of represented banks, with Saudi Arabia and Egypt also prominent.",
+        "This record is a locally held summary of the published work, with the original available through the accompanying link."
+      ]
+    },
+    {
+      "slug": "nbk-wealth",
+      "title": "NBK to launch NBK Wealth for wealth management solutions",
+      "outlet": "Amwal Al Ghad English",
+      "date": "18 February 2024",
+      "region": "Kuwait & Saudi Arabia",
+      "category": "gcc",
+      "format": "Banking news",
+      "credit": "By Aya El Sayed",
+      "url": "https://en.amwalalghad.com/nbk-launch-nbk-wealth-for-wealth-management-solutions/",
+      "summary": "Reporting on the National Bank of Kuwait’s announcement of a unified wealth-management brand. The initiative brings together private banking, investment management and brokerage services across the group’s wider international network.",
+      "detail": [
+        "The coverage identifies the proposed April 2024 launch and the inclusion of NBK entities in Kuwait and Saudi Arabia, alongside other overseas operations.",
+        "This local portfolio note records the subject and source of an article published under Aya El Sayed’s byline; it is not a reproduction of the published text."
+      ]
+    },
+    {
+      "slug": "saudi-fertiliser-egypt",
+      "title": "Egypt, Saudi Arabia ink deal for fertiliser production in Nubaria",
+      "outlet": "Amwal Al Ghad English",
+      "date": "26 March 2025",
+      "region": "Saudi Arabia & Egypt",
+      "category": "gcc",
+      "format": "Trade & investment news",
+      "credit": "By Aya El Sayed",
+      "url": "https://en.amwalalghad.com/egypt-saudi-arabia-ink-deal-for-fertiliser-production-in-nubaria/",
+      "summary": "The Egyptian Agricultural Research Centre and a Saudi agricultural development company reached an agreement covering fertiliser and soil-enhancer production in Nubaria. The announcement also outlined ambitions for training and technical cooperation.",
+      "detail": [
+        "The story places a cross-border commercial agreement within broader agricultural investment and food-security cooperation between Egypt and Saudi Arabia.",
+        "The original remains linked for the complete article; this independent synopsis is retained locally as a permanent portfolio record."
+      ]
+    },
+    {
+      "slug": "egypt-saudi-transport",
+      "title": "Egypt explores transport cooperation with Saudi Arabia",
+      "outlet": "Amwal Al Ghad English",
+      "date": "16 April 2025",
+      "region": "Saudi Arabia & Egypt",
+      "category": "gcc",
+      "format": "Industry & transport news",
+      "credit": "By Aya El Sayed",
+      "url": "https://en.amwalalghad.com/egypt-explores-transport-cooperation-with-s-arabia/",
+      "summary": "Reporting on discussions between Egyptian and Saudi transport ministers about closer cooperation in manufacturing, infrastructure and cross-border transport. Potential participation by Egyptian companies in Saudi projects was among the subjects raised.",
+      "detail": [
+        "The article draws together industrial localisation, transport integration, clean energy and desalination as areas where bilateral cooperation was under discussion.",
+        "This is a locally stored summary with the original source preserved, not a full-text copy."
+      ]
+    },
+    {
+      "slug": "oman-digital-corridor",
+      "title": "Egypt’s TE, Oman’s ZOI to build digital corridor",
+      "outlet": "Amwal Al Ghad English",
+      "date": "15 January 2024",
+      "region": "Oman & GCC",
+      "category": "gcc",
+      "format": "Infrastructure news",
+      "credit": "By Aya El Sayed",
+      "url": "https://en.amwalalghad.com/egypts-te-omans-zoi-to-build-digital-corridor/",
+      "summary": "Telecom Egypt and Zain-Omantel International announced plans for a regional digital corridor connecting Oman’s coast to Egypt’s Mediterranean network using terrestrial and subsea fibre infrastructure.",
+      "detail": [
+        "The planned route traverses Egypt, Saudi Arabia and Oman, with connectivity extending into other Gulf markets. It links investment in regional infrastructure to international data-transmission demand.",
+        "The portfolio preserves a factual outline and the article’s publication link."
+      ]
+    },
+    {
+      "slug": "renewable-energy-economics",
+      "title": "Embracing renewables: the economic upswing of green energy ’24",
+      "outlet": "Amwal Al Ghad English",
+      "date": "2024",
+      "region": "Global",
+      "category": "economy",
+      "format": "Energy feature",
+      "credit": "Published at Amwal Al Ghad English — verify detailed contribution credit",
+      "url": "https://en.amwalalghad.com/embracing-renewables-the-economic-upswing-of-green-energy-24/",
+      "summary": "A feature examining the economic case for renewable energy and the financial implications of the transition to cleaner power sources. It provides a wider policy and market lens beyond day-to-day announcements.",
+      "detail": [
+        "This archived note preserves the title, context and direct link. Publication credit should be checked against the live masthead or original file before presenting the piece as sole-authored."
+      ]
+    },
+    {
+      "slug": "egypt-eu-financial-aid",
+      "title": "Egypt, EU sign €1bn financial aid pact",
+      "outlet": "Amwal Al Ghad English",
+      "date": "June 2024",
+      "region": "Egypt & Europe",
+      "category": "economy",
+      "format": "Economic policy news",
+      "credit": "Co-bylined publication",
+      "url": "https://en.amwalalghad.com/egypt-eu-sign-1b-euro-financial-aid-pact/",
+      "summary": "Coverage of a financial-assistance agreement between Egypt and the European Union, situating the announcement within the two sides’ broader economic and investment relationship.",
+      "detail": [
+        "For the precise terms of the agreement, the full story and its byline, see the linked original. This local record contains a separate short summary rather than the publisher’s article text."
+      ]
+    },
+    {
+      "slug": "egypt-green-hydrogen",
+      "title": "Egypt signs green hydrogen production deal in Sokhna",
+      "outlet": "Amwal Al Ghad English",
+      "date": "29 June 2024",
+      "region": "Egypt & UAE",
+      "category": "economy",
+      "format": "Energy investment news",
+      "credit": "By Yomna Yasser & Aya ElSayed",
+      "url": "https://en.amwalalghad.com/egypt-signs-green-hydrogen-production-deal-in-sokhna/",
+      "summary": "A report on a green hydrogen agreement at Sokhna involving the Sovereign Fund of Egypt, Orascom Construction, Scatec and Abu Dhabi-listed Fertiglobe. The planned 100 MW facility forms part of Egypt’s emerging clean-fuels sector.",
+      "detail": [
+        "The announcement included renewable-power development and an offtake framework for green ammonia production.",
+        "This locally retained editorial summary records a jointly credited item while directing readers to the full original article."
+      ]
+    }
+  ]
+}
