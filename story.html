@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Article archive | Aya Elsayed</title>
+<meta name="description" content="Locally retained article summaries, source metadata and original publication links from Aya Elsayed's portfolio.">
+<style>
+:root{--ink:#152439;--muted:#41546b;--accent:#1b4c8f;--line:#d7dfe9;--bg:#f8fafc}*{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink)}a{color:var(--accent)}a:hover{text-decoration:underline}.container{width:min(800px,calc(100% - 40px));margin:auto}.top{border-bottom:1px solid var(--line);background:white}.top .container{display:flex;justify-content:space-between;align-items:center;min-height:82px;gap:16px}.brand{font-size:20px;font-weight:750;color:var(--ink);text-decoration:none}.back{font-size:14px;font-weight:700}.article{padding:66px 0 95px}.label{font-size:12px;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:var(--accent)}h1{font-size:clamp(36px,5.5vw,56px);letter-spacing:-.045em;line-height:1.14;margin:17px 0 25px}h2{font-size:21px;letter-spacing:-.015em;margin-top:42px}p{margin:18px 0}.metadata{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;padding:22px 0;margin:32px 0 36px}.meta-label{font-weight:750;text-transform:uppercase;letter-spacing:.08em;font-size:11px;color:#5a6675;display:block}.metadata strong{font-size:14px}.summary{font-size:20px;line-height:1.8;color:#253b57}.original{display:inline-block;background:var(--accent);color:white;font-size:14px;text-decoration:none;padding:15px 22px;font-weight:750;margin:20px 0}.original:hover{background:#13366d;text-decoration:none}.notice{background:#e9f1fb;border-left:3px solid var(--accent);padding:17px 20px;font-size:14px;margin-top:40px}.footer{border-top:1px solid var(--line);padding:25px 0;font-size:13px;color:var(--muted)}:focus-visible{outline:3px solid #1b4c8f;outline-offset:4px}@media(max-width:600px){.metadata{grid-template-columns:1fr;gap:12px}.article{padding-top:42px}}
+</style></head><body><header class="top"><div class="container"><a href="./index.html" class="brand">Aya Elsayed<span style="color:#1b4c8f">.</span></a><a href="./index.html#work" class="back">← All articles</a></div></header><main class="container article"><div id="article"><p>Loading article archive…</p></div></main><footer class="footer"><div class="container">Aya Elsayed · Published work archive · <a href="mailto:Ayas.eldein@gmail.com">Get in touch</a></div></footer>
+<script>
+(async()=>{
+const root=document.getElementById('article'), id=new URLSearchParams(location.search).get('id');
+try{
+const response=await fetch('./archive/articles.json');if(!response.ok)throw Error('Archive unavailable');
+const data=await response.json(),story=data.articles.find(x=>x.slug===id);if(!story)throw Error('Article not found');
+document.title=story.title+' | Aya Elsayed archive';root.replaceChildren();
+const el=(tag,cls,txt)=>{let node=document.createElement(tag);if(cls)node.className=cls;if(txt!==undefined)node.textContent=txt;return node};
+root.appendChild(el('div','label','Portfolio / Locally stored summary'),el('h1','',story.title));
+const meta=el('div','metadata');[['Publication',story.outlet],['Date',story.date],['Coverage',story.region],['Credit',story.credit]].forEach(([k,v])=>{let b=el('div');b.append(el('span','meta-label',k),el('strong','',v));meta.appendChild(b)});root.appendChild(meta);
+root.append(el('h2','','Overview'),el('p','summary',story.summary));
+story.detail.forEach(t=>root.appendChild(el('p','',t)));
+const a=el('a','original','Read the original published article ↗');a.href=story.url;a.target='_blank';a.rel='noopener noreferrer';root.appendChild(a);
+root.appendChild(el('p','notice','Archive note: This page stores an independently written synopsis and publication metadata in this GitHub repository. It is not a full-text reproduction or a replacement for the original published article.'));
+}catch(e){root.replaceChildren(el('h1','','Archive page unavailable'),el('p','',e.message+'. Return to the portfolio to browse other articles.'))}
+})();
+</script></body></html>
